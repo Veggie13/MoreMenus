@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoreMenus", "MoreMenus\MoreMenus.csproj", "{14E35875-786D-40F6-B717-D341BFD99629}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplePlugins", "SimplePlugins\SimplePlugins.csproj", "{1C2872AB-88CA-490A-99FC-706421CD1034}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14E35875-786D-40F6-B717-D341BFD99629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14E35875-786D-40F6-B717-D341BFD99629}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14E35875-786D-40F6-B717-D341BFD99629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14E35875-786D-40F6-B717-D341BFD99629}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C2872AB-88CA-490A-99FC-706421CD1034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C2872AB-88CA-490A-99FC-706421CD1034}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C2872AB-88CA-490A-99FC-706421CD1034}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C2872AB-88CA-490A-99FC-706421CD1034}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
