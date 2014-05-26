@@ -64,6 +64,7 @@
     <Compile Include="IMenuAction.cs" />
     <Compile Include="MenuActionHandler.cs" />
     <Compile Include="MenuNodeDefinitions.cs" />
+    <Compile Include="TortoiseSvnAction.cs" />
   </ItemGroup>
   <ItemGroup>
     <COMReference Include="EnvDTE">

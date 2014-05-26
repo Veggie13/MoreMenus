@@ -36,7 +36,13 @@ namespace MoreMenus
 
         public void Fire(DTE2 applicationObject)
         {
-            System.Diagnostics.Process.Start(Command, Parameters);
+            string parms = formatParameters(applicationObject);
+            System.Diagnostics.Process.Start(Command, parms);
+        }
+
+        protected virtual string formatParameters(DTE2 applicationObject)
+        {
+            return Parameters;
         }
     }
 }
